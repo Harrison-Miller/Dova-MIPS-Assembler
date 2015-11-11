@@ -8,7 +8,7 @@ or other modern c++ compiler equivalent
 usage: ./dova <inputfile> <outputfile> <options:-xbpd>
 
 to use the assembler:
-.dova tests/jump.asm a.out
+./dova tests/jump.asm a.out
 
 to output instruction addresses and hexadecimal/binary instructions:
 ./dova tests/allinstructions.asm a.out -xbp
